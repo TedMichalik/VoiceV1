@@ -18,7 +18,7 @@ https://github.com/alexa/avs-device-sdk/wiki/Create-Security-Profile
 ***************************************************************
 4. Clone the git using:
 ```
-git clone https://github.com/TedMichalik/VoiceV1  
+git clone https://github.com/TedMichalik/VoiceV1.git
 ```    
 **DO NOT RENAME THE CREDENTIALS FILEs**     
  
