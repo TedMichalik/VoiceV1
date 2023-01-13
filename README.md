@@ -5,9 +5,9 @@ Alexa on Google AIY Voice V1
 ****************************************************************
  
 1. Create a security profile for alexa-avs-sample-app if you already don't have one.  
-...
+```
 https://github.com/alexa/avs-device-sdk/wiki/Create-Security-Profile  
-...
+```
 
 2. Download the **"config.json"** file.
 
@@ -38,19 +38,19 @@ diff ~/.asoundrc /etc/asound.conf
 ```
 
 7. Test the audio setup using the following code (optional). Dont panic if the test does not go through successfully, proceed with the installation:
-...
+```
 sudo /home/pi/VoiceV1/scripts/audio-test.sh  
-...
+```
 
 8. Restart the Pi using:
-...
+```
 sudo reboot
-...
+```
 
 ***************************************************************
 **Install Alexa**     
 ***************************************************************
 9. Install the assistant/assistants using the following. This is an interactive script, so just follow the onscreen instructions:
-...
+```
 sudo /home/pi/VoiceV1/scripts/installer.sh  
-...
+```
