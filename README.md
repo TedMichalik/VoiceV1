@@ -34,23 +34,18 @@ sudo reboot
 6. Make sure that contents of asoundrc match the contents of asound.conf    
    Open a terminal and type:  
 ```
-diff ~/.asoundrc /etc/asound.conf
+diff /home/pi/.asoundrc /etc/asound.conf
 ```
 
 7. Test the audio setup using the following code (optional). Dont panic if the test does not go through successfully, proceed with the installation:
 ```
-sudo /home/pi/VoiceV1/scripts/audio-test.sh  
-```
-
-8. Restart the Pi using:
-```
-sudo reboot
+/home/pi/VoiceV1/scripts/audio-test.sh  
 ```
 
 ***************************************************************
 **Install Alexa**     
 ***************************************************************
-9. Install the assistant/assistants using the following. This is an interactive script, so just follow the onscreen instructions:
+8. Install the assistant/assistants using the following. This is an interactive script, so just follow the onscreen instructions:
 ```
 sudo /home/pi/VoiceV1/scripts/installer.sh  
 ```
