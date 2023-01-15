@@ -47,5 +47,5 @@ diff /home/pi/.asoundrc /etc/asound.conf
 ***************************************************************
 8. Install the assistant/assistants using the following. This is an interactive script, so just follow the onscreen instructions:
 ```
-sudo /home/pi/VoiceV1/scripts/installer.sh  
+/home/pi/VoiceV1/scripts/alexa-installer.sh  
 ```
